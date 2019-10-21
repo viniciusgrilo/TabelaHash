@@ -10,6 +10,15 @@ public class TabelaHash {
 
     private List<ArrayList<Integer>> enderecos = new ArrayList<ArrayList<Integer>>();
 
+    public List<ArrayList<Integer>> getEnderecos() {
+        return this.enderecos;
+    }
+
+    public void setEnderecos(List<ArrayList<Integer>> enderecos) {
+        this.enderecos = enderecos;
+    }
+
+
     public TabelaHash(int M){
         if(M > 0){
             for(int j = 0; j < M; j++){
